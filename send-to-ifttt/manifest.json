@@ -1,0 +1,25 @@
+{
+  "name": "Send to IFTTT",
+  "manifest_version": 2,
+  "version": "0.1",
+  "icons": {
+    "16": "icons/sendtoifttt16.png",
+    "48": "icons/sendtoifttt48.png",
+    "128": "icons/sendtoifttt128.png"
+  },
+  "description": "Send current page to IFTTT's Maker service.",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Send!",
+    "default_icon": "icons/sendtoifttt48.png"
+  },
+  "permissions": [
+    "https://maker.ifttt.com/",
+    "storage"
+  ],
+  "options_page": "options.html"
+}
