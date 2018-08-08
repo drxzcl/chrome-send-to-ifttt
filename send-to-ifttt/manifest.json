@@ -19,7 +19,8 @@
   },
   "permissions": [
     "https://maker.ifttt.com/",
-    "storage"
+    "storage",
+    "tabs"
   ],
   "options_page": "options.html"
 }
